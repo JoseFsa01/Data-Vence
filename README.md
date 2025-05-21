@@ -5,10 +5,10 @@ Este projeto é uma aplicação web desenvolvida em PHP e MySQL para gerenciamen
 
 ---
 
-## 📦 Versão 1.0 – Estrutura Inicial
+## 📦 Versão 1.0.0 – Estrutura Inicial
 
 ### Descrição
-A versão 1.0 estabelece a base do sistema, fornecendo recursos essenciais de cadastro, listagem e controle de produtos.
+A versão 1.0.0 estabelece a base do sistema, fornecendo recursos essenciais de cadastro, listagem e controle de produtos.
 
 ### Principais Funcionalidades
 - **Cadastro de Produtos**  
@@ -51,7 +51,7 @@ A versão 1.0 estabelece a base do sistema, fornecendo recursos essenciais de ca
   - Página: `remover_quantidade.php`  
   - Subtrai valor informado, sem permitir quantidade negativa.
 
-### Uso na Versão 1.0
+### Uso na Versão 1.0.0
 1. Execute `index.php` e preencha o formulário para cadastrar um produto.  
 2. Clique em **Salvar** para gravar no banco.  
 3. Acesse `listar.php` para visualizar, editar ou remover produtos.  
@@ -59,10 +59,10 @@ A versão 1.0 estabelece a base do sistema, fornecendo recursos essenciais de ca
 
 ---
 
-## 🚀 Versão 2.0 – Ordenação e Filtros Avançados
+## 🚀 Versão 1.1.0 – Ordenação e Filtros Avançados
 
 ### Descrição
-A versão 2.0 aprimora a listagem com ordenação dinâmica e filtragem mais granular.
+A versão 1.1.0 aprimora a listagem com ordenação dinâmica e filtragem mais granular.
 
 ### Novas Funcionalidades
 - **Ordenação Dinâmica**  
@@ -85,14 +85,14 @@ A versão 2.0 aprimora a listagem com ordenação dinâmica e filtragem mais gra
 - **Formato de Data**  
   - Apresentação no formato `dd/mm/YYYY`.
 
-### Uso na Versão 2.0
+### Uso na Versão 1.1.0
 1. Em `listar.php`, clique nos cabeçalhos para ordenar.  
 2. Selecione/desmarque checkboxes para filtrar conforme validade.  
 3. Produtos vencidos são destacados em roxo automaticamente.
 
 ---
 
-## 🧭 Versão 3.0 – Painel de Resumo e Layout Avançado
+## 🧭 Versão 1.2.0 – Painel de Resumo e Layout Avançado
 
 ### Descrição
 Foco na experiência de cadastro, adicionando um dashboard resumo e novo layout na página principal.
@@ -117,14 +117,14 @@ Foco na experiência de cadastro, adicionando um dashboard resumo e novo layout 
 - CSS embarcado em `index.php` para o painel e grid.  
 - `styles.css` mantém estilos globais e cores de destaque na listagem.
 
-### Uso na Versão 3.0
+### Uso na Versão 1.2.0
 1. Abra `index.php` para acessar o formulário e visualizar o painel “ATENÇÃO”.  
 2. Cadastre produtos normalmente; observe as atualizações em tempo real no painel.  
 3. Use `listar.php` como nas versões anteriores para visualizar, ordenar e filtrar.
 
 ---
 
-## 🎨 Versão 4.0 – Interface Moderna com Bootstrap
+## 🎨 Versão 1.3.0 – Interface Moderna com Bootstrap
 
 ### Descrição
 Integração completa com Bootstrap 4.6.2 para responsividade e consistência visual.
@@ -144,7 +144,7 @@ Integração completa com Bootstrap 4.6.2 para responsividade e consistência vi
 - **Estilos Complementares**  
   - `styles.css` ajustado para harmonizar com Bootstrap.
 
-### Uso na Versão 4.0
+### Uso na Versão 1.3.0
 1. Acesse qualquer página via cabeçalho de navegação.  
 2. Formulários agora estilizados com Bootstrap.  
 3. Utilize painel “ATENÇÃO” e sistema de filtros responsivo.  
